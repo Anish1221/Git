@@ -3,7 +3,9 @@ package com.example.git;
 public class Test {
 
 	public static void main(String[] args) {
-		for(int i=0;i<10;i++){
+		int[] input={10, 9};
+		
+		for(int i: input){
 			System.out.println(i);
 		}
 	}
